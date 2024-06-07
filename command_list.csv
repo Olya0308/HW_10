@@ -1,0 +1,94 @@
+    1  cd /c/Users/HelwetPakkard/Desktop/GIT/ 
+    2  cd ../
+    3  cd GIT
+    4  clear
+    5  pwd
+    6  ls -l
+    7  touch test.txt
+    8  ls -l
+    9  clear
+   10  vim test.txt
+   11  vim test.txt
+   12  cat test.txt
+   13  clear
+   14  mkdir Olya
+   15  ls -l
+   16  clear
+   17  cd /c/Users/HelwetPakkard/Desktop/GIT/
+   18  mkdir Olya
+   19  ls -l
+   20  cp test.txt Olya/
+   21  ls -1
+   22  cd Olya/
+   23  ls -l
+   24  rm test.txt
+   25  ls -l
+   26  ping google.com
+   27  date
+   28  systeminfo
+   29  cd ../
+   30  ls -l
+   31  attrib +r test.txt
+   32  attrib +r test.txt
+   33  ls -l
+   34  cd /c/Users/HelwetPakkard/Desktop/GIT
+   35  git clone https://github.com/Olya0308/777
+   36  cd HW_10/
+   37  git config --global user.name "Olya Lamtieva"
+   38  git config --global user.email "sotnikova.olya.g@gmail.com"
+   39  toch file.txt
+   40  ls -l
+   41  git status
+   42  git add file.txt
+   43  touch file.txt
+   44  ls -l
+   45  git add file.txt
+   46  git status
+   47  git commit -m "First commit"
+   48  git push
+   49  git branch
+   50  git checkout -b test
+   51  touch test.txt
+   52  ls -l
+   53  git status
+   54  git add test.txt
+   55  git status
+   56  git commit -m "second commit"
+   57  git checkout main
+   58  git merge test
+   59  git push
+   60  clear
+   61  cd /c/Users/HelwetPakkard/Desktop/GIT
+   62  git global user.name "Olya Lamtieva"
+   63  git config --global user.name "Olya Lamtieva"
+   64  git config --global user.email "sotnikova.olya.g@gmail.com"
+   65  git clone https://github.com/Olya0308/777
+   66  cd HW_10/
+   67  touch text_ignore.txt
+   68  vim .gitignore
+   69  cd /c/Users/HelwetPakkard/Desktop/GIT/HW_10
+   70  vim .gitignore
+   71  git status
+   72  git add text_ignore.txt
+   73  git add.text_ignore.txt
+   74  git add.
+   75  git add. text_ignore.txt
+   76  git add text_ignore.txt
+   77  -f
+   78  git add .
+   79  git commit -m "first commit"
+   80  touch main_test.txt
+   81  git add .
+   82  git commit -m "second commit"
+   83  git checkout -b develop
+   84  touch develop_test.txt
+   85  git add .
+   86  git commit -m "third commit"
+   87  vim develop_test.txt
+   88  git add .
+   89  git status
+   90  git commit -m "four commit"
+   91  git checkout main
+   92  git merge develop
+   93  git log
+   94  history > command_list.csv
