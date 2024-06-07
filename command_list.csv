@@ -1,94 +1,101 @@
-    1  cd /c/Users/HelwetPakkard/Desktop/GIT/ 
-    2  cd ../
-    3  cd GIT
-    4  clear
-    5  pwd
-    6  ls -l
-    7  touch test.txt
-    8  ls -l
-    9  clear
-   10  vim test.txt
-   11  vim test.txt
-   12  cat test.txt
-   13  clear
-   14  mkdir Olya
-   15  ls -l
-   16  clear
-   17  cd /c/Users/HelwetPakkard/Desktop/GIT/
-   18  mkdir Olya
-   19  ls -l
-   20  cp test.txt Olya/
-   21  ls -1
-   22  cd Olya/
-   23  ls -l
-   24  rm test.txt
-   25  ls -l
-   26  ping google.com
-   27  date
-   28  systeminfo
-   29  cd ../
-   30  ls -l
-   31  attrib +r test.txt
-   32  attrib +r test.txt
-   33  ls -l
-   34  cd /c/Users/HelwetPakkard/Desktop/GIT
-   35  git clone https://github.com/Olya0308/777
-   36  cd HW_10/
-   37  git config --global user.name "Olya Lamtieva"
-   38  git config --global user.email "sotnikova.olya.g@gmail.com"
-   39  toch file.txt
-   40  ls -l
-   41  git status
-   42  git add file.txt
-   43  touch file.txt
-   44  ls -l
-   45  git add file.txt
-   46  git status
-   47  git commit -m "First commit"
-   48  git push
-   49  git branch
-   50  git checkout -b test
-   51  touch test.txt
-   52  ls -l
-   53  git status
-   54  git add test.txt
-   55  git status
-   56  git commit -m "second commit"
-   57  git checkout main
-   58  git merge test
-   59  git push
-   60  clear
-   61  cd /c/Users/HelwetPakkard/Desktop/GIT
-   62  git global user.name "Olya Lamtieva"
-   63  git config --global user.name "Olya Lamtieva"
-   64  git config --global user.email "sotnikova.olya.g@gmail.com"
-   65  git clone https://github.com/Olya0308/777
-   66  cd HW_10/
-   67  touch text_ignore.txt
-   68  vim .gitignore
-   69  cd /c/Users/HelwetPakkard/Desktop/GIT/HW_10
-   70  vim .gitignore
-   71  git status
-   72  git add text_ignore.txt
-   73  git add.text_ignore.txt
-   74  git add.
-   75  git add. text_ignore.txt
-   76  git add text_ignore.txt
-   77  -f
-   78  git add .
-   79  git commit -m "first commit"
-   80  touch main_test.txt
-   81  git add .
-   82  git commit -m "second commit"
-   83  git checkout -b develop
-   84  touch develop_test.txt
-   85  git add .
-   86  git commit -m "third commit"
-   87  vim develop_test.txt
-   88  git add .
-   89  git status
-   90  git commit -m "four commit"
-   91  git checkout main
-   92  git merge develop
-   93  git log
-   94  history > command_list.csv
+# Clone the repository
+1. git clone https://github.com/Olya0308/HW_10.git
+
+# Navigate to the cloned repository directory
+2. cd HW_10/
+
+# The rest of the commands follow the same sequence
+3. cd /c/Users/HelwetPakkard/Desktop/GIT/
+4. cd ../
+5. cd GIT
+6. clear
+7. pwd
+8. ls -l
+9. touch test.txt
+10. ls -l
+11. clear
+12. vim test.txt
+13. vim test.txt
+14. cat test.txt
+15. clear
+16. mkdir Olya
+17. ls -l
+18. clear
+19. cd /c/Users/HelwetPakkard/Desktop/GIT/
+20. mkdir Olya
+21. ls -l
+22. cp test.txt Olya/
+23. ls -1
+24. cd Olya/
+25. ls -l
+26. rm test.txt
+27. ls -l
+28. ping google.com
+29. date
+30. systeminfo
+31. cd ../
+32. ls -l
+33. attrib +r test.txt
+34. attrib +r test.txt
+35. ls -l
+36. cd /c/Users/HelwetPakkard/Desktop/GIT
+37. git clone https://github.com/Olya0308/777
+38. cd HW_10/
+39. git config --global user.name "Olya Lamtieva"
+40. git config --global user.email "sotnikova.olya.g@gmail.com"
+41. toch file.txt # This is a typo, should be `touch file.txt`
+42. ls -l
+43. git status
+44. git add file.txt
+45. touch file.txt
+46. ls -l
+47. git add file.txt
+48. git status
+49. git commit -m "First commit"
+50. git push
+51. git branch
+52. git checkout -b test
+53. touch test.txt
+54. ls -l
+55. git status
+56. git add test.txt
+57. git status
+58. git commit -m "second commit"
+59. git checkout main
+60. git merge test
+61. git push
+62. clear
+63. cd /c/Users/HelwetPakkard/Desktop/GIT
+64. git global user.name "Olya Lamtieva" # This is a typo, should be `git config --global user.name "Olya Lamtieva"`
+65. git config --global user.name "Olya Lamtieva"
+66. git config --global user.email "sotnikova.olya.g@gmail.com"
+67. git clone https://github.com/Olya0308/777
+68. cd HW_10/
+69. touch text_ignore.txt
+70. vim .gitignore
+71. cd /c/Users/HelwetPakkard/Desktop/GIT/HW_10
+72. vim .gitignore
+73. git status
+74. git add text_ignore.txt
+75. git add.text_ignore.txt # This is a typo, should be `git add text_ignore.txt`
+76. git add . # This will add all changes
+77. git add. text_ignore.txt # This is a typo, should be `git add text_ignore.txt`
+78. git add text_ignore.txt
+79. -f # This is an incomplete command
+80. git add . # This will add all changes
+81. git commit -m "first commit"
+82. touch main_test.txt
+83. git add .
+84. git commit -m "second commit"
+85. git checkout -b develop
+86. touch develop_test.txt
+87. git add .
+88. git commit -m "third commit"
+89. vim develop_test.txt
+90. git add .
+91. git status
+92. git commit -m "four commit"
+93. git checkout main
+94. git merge develop
+95. git log
+96. history > command_list.csv
